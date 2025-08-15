@@ -68,3 +68,50 @@ Visualizations included:
 - Estimated annual cost of attrition
 - Projected savings from reducing attrition rates
 - Recommendations: address overtime, targeted retention, salary reviews for at-risk roles
+├── IBMHR.ipynb # Main Jupyter notebook (analysis & modeling)
+├── IBM_Project_Report.pdf # Professional project report (PDF)
+├── models/ # Saved model pipelines (.pkl)
+├── charts/ # Key visualizations (ROC, EDA, feature importance, etc.)
+├── data/ # Raw and processed datasets (if distributable)
+└── README.md # This file
+
+
+## How to Run
+
+1. Clone this repository:
+    ```
+    git clone <repo-url>
+    cd ibm-hr-analytics-attrition
+    ```
+
+2. (Recommended) Set up a new virtual environment and install dependencies:
+    ```
+    python -m venv venv
+    source venv/bin/activate
+    pip install -r requirements.txt
+    ```
+
+3. Run the Jupyter notebook:
+    ```
+    jupyter notebook IBMHR.ipynb
+    ```
+
+4. Review visualizations, metrics, and saved model pipelines.
+
+## Dependencies
+
+- Python 3.8+
+- pandas, numpy, scikit-learn, seaborn, matplotlib, scipy, jupyter
+
+Install directly with:
+pip install pandas numpy scikit-learn seaborn matplotlib scipy jupyter
+
+
+## Authors
+
+Thaduru Sathwik Reddy
+
+## License
+
+This project is licensed for educational and non-commercial use. IBM HR Analytics Employee Attrition & Performance dataset © IBM.
+
