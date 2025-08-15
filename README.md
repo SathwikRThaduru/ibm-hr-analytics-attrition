@@ -68,13 +68,6 @@ Visualizations included:
 - Estimated annual cost of attrition
 - Projected savings from reducing attrition rates
 - Recommendations: address overtime, targeted retention, salary reviews for at-risk roles
-├── IBMHR.ipynb # Main Jupyter notebook (analysis & modeling)
-├── IBM_Project_Report.pdf # Professional project report (PDF)
-├── models/ # Saved model pipelines (.pkl)
-├── charts/ # Key visualizations (ROC, EDA, feature importance, etc.)
-├── data/ # Raw and processed datasets (if distributable)
-└── README.md # This file
-
 
 ## How to Run
 
